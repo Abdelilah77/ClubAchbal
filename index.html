@@ -11,7 +11,7 @@
     <script src="Scripts/bootstrap.min.js"></script>
 </head>
 <body>
-    <div class="navbar  navbar-default navbar-fixed-top ">
+    <div class="navbar  navbar-default navbar-fixed-top " >
         <div class="container">
 
             <div class="navbar-header">
@@ -29,14 +29,14 @@
                     <li class=""><a href="">Contact</a></li>
                     <li class=""><a href="">About</a></li>
                     <li class="dropdown">
-                        <a href="" class="dropdown-toggle" data-toggle="dropdown">Share <span class="caret"></span></a>
+                        <a href="" class="dropdown-toggle" style="color: #22d1ee;" data-toggle="dropdown">Share <span class="caret"></span></a>
                         <ul class="dropdown-menu">
                             <li><a href="">Facebook</a></li>
                             <li><a href="">twitter</a></li>
                             <li><a href="">Insatgram</a></li>
                         </ul>
                     </li>
-                    <li> <input type="checkbox" name="name" value="" class="navbar-right" /> </li>
+
 
                     <li style="margin-left:180px" class="Mar Dow">
                         <label>Code : </label>
@@ -48,10 +48,18 @@
                             </button>
                         </div>
 
+                        <button id="Ckeck" class="mybtn3">Check</button>
 
                     </li>
 
+                    <li>
+                        <div id="Ad" style="margin-left:180px; margin-top:5px;margin-right:8px;">
+                            <button id="Admin" class="mybtn">Admin</button>
+                            <button id="Entre" class="mybtn2">Entraineur</button>
 
+                        </div>
+                    </li>
+                    <li> <input type="checkbox" name="name" value="" class="navbar-right" /> </li>
                 </ul>
 
             </nav>
@@ -61,60 +69,93 @@
 
 
 
-    <div><link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <div> <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-        <link href="Stylesheet/newStylemain.css" rel="stylesheet" />
-        <div class="My_slider">
-            <img id="0" src="Stylesheet/gym/modify0.jpg" alt="Alternate Text" />
-            <img id="1" src="Stylesheet/gym/modify1.jpg" alt="Alternate Text" />
-            <img id="2" src="Stylesheet/gym/modify2.jpg" alt="Alternate Text" />
-        </div>
-        <div class="Description">
-            <h1 class="header-2-bold">Lorem</h1>
-            <p class="text-block-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto sequi consequuntur accusamus minus aliquam vitae omnis, maiores totam sint accusantium suscipit eveniet, modi deserunt nisi voluptas est quae obcaecati? Aspernatur.</p>
-            <button class="rt">Read More</button>
+        <link href="~/Stylesheet/newStylemain.css" rel="stylesheet" />
         
-        </div>
+            <div class="My_slider">
+                <img id="0" src="Stylesheet/gym/modify0.jpg" alt="Alternate Text" />
+                <img id="1" src="Stylesheet/gym/modify1.jpg" alt="Alternate Text" />
+                <img id="2" src="Stylesheet/gym/modify2.jpg" alt="Alternate Text" />
+            </div>
+            <div class="Description">
+                <h1 class="header-2-bold">Lorem</h1>
+                <p class="text-block-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto sequi consequuntur accusamus minus aliquam vitae omnis, maiores totam sint accusantium suscipit eveniet, modi deserunt nisi voluptas est quae obcaecati? Aspernatur.</p>
+                <button class="rt">Read More</button>
+        
+            </div>
+        
         <div class="choise">
             <div class="container">
                 <h1 class="heading-3" style="text-align:center;color:#22d1ee;">Lorem</h1>
                 <div class="row someSpace">
-                    <div class="col-md-2 col-md-offset-3 mobile-size  ">
-                        <div class="centerBlock size A" style="background-color:#242582;">
-                            <img src="Stylesheet/gym/icons8-bench-press-100.png" alt="Alternate Text" class="img-responsive " />
-                            <p class="Types">bench-pres</p>
-                        </div>
-                    </div>
+                    <a href="#Eench">
+                        <div class="col-md-2 col-md-offset-3 mobile-size  ">
+                            <div class="centerBlock size A" style="background-color:#242582;">
         
-                    <div class="col-md-2 mobile-size ">
-                        <div class="centerBlock size B" style="background-color:#553d67;">
-                            <img src="Stylesheet/gym/icons8-boxing-100.png" alt="Alternate Text" class="img-responsive " />
-                            <p class="Types">boxing</p>
+                                <img src="Stylesheet/gym/icons8-bench-press-100.png" alt="Alternate Text" class="img-responsive " />
+                                <p class="Types">Bench-pres</p>
         
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-md-2 mobile-size ">
-                        <div class="centerBlock size C" style="background-color:#f64c72">
-                            <img src="Stylesheet/gym/icons8-deadlift-100.png" alt="Alternate Text" class="img-responsive" />
-                            <p class="Types">boxing</p>
+                    </a>
+                    <a href="#Bench">
+                        <div class="col-md-2 mobile-size ">
+                            <div class="centerBlock size B" style="background-color:#553d67;">
         
+                                <img src="Stylesheet/gym/icons8-boxing-100.png" alt="Alternate Text" class="img-responsive " />
+                                <p class="Types">Boxing</p>
+        
+                            </div>
                         </div>
-                    </div>
+                    </a>
+                    <a href="#Boxing">
+                        <div class="col-md-2 mobile-size ">
+        
+                            <div class="centerBlock size C" style="background-color:#f64c72">
+        
+                                <img src="Stylesheet/gym/icons8-deadlift-100.png" alt="Alternate Text" class="img-responsive" />
+                                <p class="Types">Deadlift</p>
+        
+                            </div>
+                        </div>
+                    </a>
                 </div>
         
                 <div class="row someSpace ">
-                    <div class=" col-md-6  mobile-size mobile-center ">
-                        <div class=" size  D pull-right  " style="background-color:#99738e;">
-                            <img src="Stylesheet/gym/icons8-taekwondo-100.png" alt="Alternate Text" class="img-responsive" />
-                            <p class="Types">boxing</p>
+                    <a href="#Deadlift">
+                        <div class=" col-md-6 mobile-size   ">
+                            <div class=" size  D pull-right  mobile-center  " style="background-color:#99738e;">
+        
+                                <img src="Stylesheet/gym/icons8-taekwondo-100.png" alt="Alternate Text" class="img-responsive" />
+                                <p class="Types">Taekwondo</p>
+        
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-md-6 mobile-size mobile-center ">
-                        <div class=" size E pull-left" style="background-color:#2f2fa2;">
-                            <img src="Stylesheet/gym/icons8-gymnastics-100.png" alt="Alternate Text" class="img-responsive" />
-                            <p class="Types">boxing</p>
+                    </a>
+                    <a href="#Taekwondo" id="Eench">
+                        <div class="col-md-6   mobile-size  ">
+                            <div class=" size E pull-left mobile-center" style="background-color:#2f2fa2;">
+        
+                                <img src="Stylesheet/gym/icons8-gymnastics-100.png" alt="Alternate Text" class="img-responsive" />
+                                <p class="Types">Gymnastics</p>
+        
+                            </div>
                         </div>
-                    </div>
+                    </a>
+                </div>
+                <h1 class="heading-3" style="text-align:center;color:#22d1ee;">Lorem</h1>
+                <div class="morepading">
+                    <h3 class="header-2-bold" style="font-size:30px;">Bench-pres</h3>
+                    <p class="text-block-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto sequi consequuntur accusamus minus aliquam vitae omnis, maiores totam sint accusantium suscipit eveniet, modi deserunt nisi voluptas est quae obcaecati? Aspernatur.</p>
+                    <h3 class="header-2-bold" style="font-size:30px;">Boxing</h3>
+                    <p class="text-block-3" id="Boxing">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto sequi consequuntur accusamus minus aliquam vitae omnis, maiores totam sint accusantium suscipit eveniet, modi deserunt nisi voluptas est quae obcaecati? Aspernatur.</p>
+                    <h3 class="header-2-bold" style="font-size:30px;">Deadlift</h3>
+                    <p class="text-block-3" id="Deadlift">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto sequi consequuntur accusamus minus aliquam vitae omnis, maiores totam sint accusantium suscipit eveniet, modi deserunt nisi voluptas est quae obcaecati? Aspernatur.</p>
+                    <h3 class="header-2-bold" style="font-size:30px;">Taekwondo</h3>
+                    <p class="text-block-3" id="Taekwondo">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto sequi consequuntur accusamus minus aliquam vitae omnis, maiores totam sint accusantium suscipit eveniet, modi deserunt nisi voluptas est quae obcaecati? Aspernatur.</p>
+                    <h3 class="header-2-bold" style="font-size:30px;">Gymnastics</h3>
+                    <p class="text-block-3" id="Gymnastics">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto sequi consequuntur accusamus minus aliquam vitae omnis, maiores totam sint accusantium suscipit eveniet, modi deserunt nisi voluptas est quae obcaecati? Aspernatur.</p>
                 </div>
             </div>
         </div>
@@ -133,7 +174,7 @@
                 </div>
             </div>
         
-        </footer> </div>
+        </footer></div>
 
    
 </body>
@@ -144,7 +185,33 @@
 
 </html>
 <style>
-    
+    .mybtn3{
+        color:#22d1ee;
+        background-color:#0e153a;
+        border:none;
+        padding:6px;
+        margin:5px;
+        transition:.5s ease;
+    }
+     .mybtn3:hover{
+        color:#0e153a;
+        background-color:#e2f3f5;
+        border:none;
+        padding:6px;
+        margin:5px;
+    }
+    .mybtn,.mybtn2{
+        border:none;
+        color:#fff;
+        padding:6px;
+        margin:5px;
+        background-color:#3b5999;
+        cursor:pointer;
+    }
+    .mybtn2{
+        background-color:#cd201f;
+    }
+   
     .navbar-default{
         background:#0e153a;
         border:0 0 1px 0 solid #22d1ee;
@@ -180,7 +247,7 @@
 
       }
          .Mar{
-         margin-top:13px;
+         margin-top:5px;
          margin-right:8px;
          
      }
@@ -211,190 +278,224 @@
      input:checked[type = checkbox],.Bt{
          background-color:#22d1ee;
      }
-     input[type = checkbox]::before{
-        position:absolute;
-        content:'';
-        width:20px;
-        top:0;
-        left:0;
-        height:20px;
-        border-radius:20px;
-        background-color:#fff;
-        transform:scale(1.05);
-        transition:.5s ease-out;
-     }
+    input[type = checkbox]::before {
+        position: absolute;
+        content: '';
+        width: 20px;
+        top: 0;
+        left: 0;
+        height: 20px;
+        border-radius: 20px;
+        background-color: #fff;
+        transform: scale(1.05);
+        transition: .5s ease-out;
+    }
+
     input:checked[type = checkbox]::before {
         left: 20px;
     }
+
     .Mar {
-        margin-top: 13px;
+        margin-top: 5px;
         margin-right: 8px;
     }
-    .My_slider:before {
-    content: '';
-    position:absolute;
-    width:100%;
-    height:100%;
+   
+     .My_slider {
+    width: 100%;
+    height: 600px;
+    display: inline-block;
+    overflow: hidden;
+    background-image: url("Stylesheet/gym/loading.gif") ;
+    background-repeat:no-repeat;
+    background-position:center;
+    margin: auto;
 }
-    .card-footer{
-         padding:10px;
-    }
-    iframe{
-        width:100%;
-        height:400px;
-        margin:auto;
-       
-    }
-    footer{
-       
-        background-color:#0e153a;
-        color:#22d1ee;
-        font-family: Jubilat, Georgia, sans-serif;
-    }
-    .Types {
-        line-height: 57px;
-        font-weight: 700;
-        text-transform: none;
-        font-family: Jubilat, Georgia, sans-serif;
-        text-align: center;
-        color: #c5e3f6;
-    }
-
-    .header-2-bold {
-        display: block;
-        width: auto;
-        margin-right: auto;
-        margin-left: auto;
-        font-family: Jubilat, Georgia, sans-serif;
-        color: #273c48;
-        font-size: 50px;
-        line-height: 57px;
-        font-weight: 700;
-        text-transform: none;
-    }
-
-    .size {
-        padding: 40px;
-        margin: 30px;
-        border-radius: 6px;
-    }
-
-    .someSpace {
-        margin-bottom: 70px;
-    }
-
-    .centerBlock {
-        display: table;
-        margin: auto;
-    }
-
-    .choise {
-        margin-top: 300px;
-    }
-
-    .My_slider img {
-        height: 600px;
-        width: 100%;
-    }
-
-    .My_slider img {
-        display: none;
-        width: 100%;
-        height: 600px;
-    }
-
-    .Description {
+    .My_slider:before {
+        content: '';
         position: absolute;
-        top: 90%;
-        left: 50%;
-        transform: translate(-50%,-50%);
-        color: #22d1ee;
-        padding: 30px;
-        padding-left:60px;
-        width: 70%;
-        min-width:300px;
-        background-color: #fff;
-        margin: 10px;
+        width: 100%;
+        height: 100%;
     }
 
-    .rt {
-        background-color: #fff;
-        border: 1px solid #22d1ee;
-        padding: 15px;
-        color: #0e153a;
-        font-family: 'Brandon Grotesque', Arial, sans-serif;
-        font-size: 13px;
-    }
+.card-footer {
+    padding: 10px;
+}
 
-        .rt:hover {
-            background-color: #0e153a;
-            color: #22d1ee;
-        }
+iframe {
+    width: 100%;
+    height: 400px;
+    margin: auto;
+}
 
-    .heading-3 {
-        display: block;
-        height: 44px;
-        margin: 20px;
+footer {
+    background-color: #0e153a;
+    color: #22d1ee;
+    font-family: Jubilat, Georgia, sans-serif;
+}
+
+.Types {
+    line-height: 57px;
+    font-weight: 700;
+    text-transform: none;
+    font-family: Jubilat, Georgia, sans-serif;
+    text-align: center;
+    color: #c5e3f6;
+}
+
+.header-2-bold {
+    display: block;
+    width: auto;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: Jubilat, Georgia, sans-serif;
+    color: #273c48;
+    font-size: 50px;
+    line-height: 57px;
+    font-weight: 700;
+    text-transform: none;
+}
+
+.size {
+    padding: 40px;
+    margin: 30px;
+    border-radius: 6px;
+    min-width: 180px;
+}
+
+.someSpace {
+    margin-bottom: 70px;
+}
+
+.centerBlock {
+    display: table;
+    margin: auto;
+}
+
+.choise {
+    margin-top: 0px;
+}
+
+.My_slider img {
+    height: 600px;
+    width: 100%;
+}
+
+.My_slider img {
+    display: none;
+    width: 100%;
+    height: 600px;
+}
+
+.Description {
+    position: relative;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #22d1ee;
+    padding: 30px;
+    padding-left: 60px;
+    width: 70%;
+    min-width: 300px;
+    background-color: #fff;
+    margin: 10px;
+}
+
+.rt {
+    background-color: #fff;
+    border: 1px solid #22d1ee;
+    padding: 15px;
+    color: #0e153a;
+    font-family: 'Brandon Grotesque', Arial, sans-serif;
+    font-size: 13px;
+}
+
+    .rt:hover {
         background-color: #0e153a;
-        font-family: 'Brandon Grotesque', Arial, sans-serif;
-        padding-top: 12px;
-        font-size: 15px;
-        font-weight: 700;
-        text-transform: uppercase;
+        color: #22d1ee;
     }
 
+.heading-3 {
+    display: block;
+    height: 44px;
+    margin: 20px;
+    background-color: #0e153a;
+    font-family: 'Brandon Grotesque', Arial, sans-serif;
+    padding-top: 12px;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.text-block-3 {
+    margin-bottom: 52px;
+    font-family: Lato, Arial, sans-serif;
+    color: #2a2a2a;
+    font-size: 22px;
+    line-height: 40px;
+    letter-spacing: 0.5px;
+}
+
+@media screen and (max-width: 779px) {
     .text-block-3 {
-        margin-bottom: 52px;
-        font-family: Lato, Arial, sans-serif;
-        color: #2a2a2a;
-        font-size: 22px;
-        line-height: 40px;
-        letter-spacing: 0.5px;
+        font-size: 17px;
+        line-height: 32px;
+    }
+}
+
+
+
+@media screen and (max-width: 779px) {
+    .header-2-bold {
+        width: 90%;
+        padding-left: 0px;
+        font-size: 33px;
+        line-height: 37px;
+    }
+}
+
+.A:hover,
+.B:hover,
+.C:hover,
+.D:hover,
+.E:hover {
+    transform: scale(1.1);
+    transition: .4s ease-out;
+}
+@media screen and (max-width: 526px) {
+    .mobile-size {
+        margin: 20px;
     }
 
-    @media screen and (max-width: 479px) {
-        .text-block-3 {
-            font-size: 17px;
-            line-height: 32px;
-        }
+   .mobile-center,.pull-left,.pull-right{
+     float: none !important;
+      text-align: center;
     }
-     @media screen and (max-width: 479px) {
-        .mobile-size {
-            margin:20px;
-        }
-        .mobile-center{
-             display: block;
-             margin-right: auto;
-             margin-left: auto;
-        }
-    }
-    @media screen and (max-width: 479px) {
-        .header-2-bold {
-            width: 90%;
-            padding-left: 0px;
-            font-size: 33px;
-            line-height: 37px;
-        }
-    }
+   .col-md-6{
+       display:block;
+       margin:0 auto;
+       width:55%;
+      min-width:180px;
+    
 
-    .A:hover,
-    .B:hover,
-    .C:hover,
-    .D:hover,
-    .E:hover {
-        transform: scale(1.1);
-        transition: .4s ease-out;
-    }
+   }
+}
+ .morepading{
+     padding:20px;
+ }
 </style>
 <script>
     document.addEventListener("DOMContentLoaded", function () {
         $(".Mar").hide();
+        $("#Ad").hide();
+     
+
     });
     $("input[type=checkbox]").click(function () {
         if ($(this).prop("checked")) {
-            $(".Mar").show();
+            $(".Mar").show("fade",500);
+
         }
-        else $(".Mar").hide();
+        else $(".Mar").hide();  $("#Ad").hide();
     });
     var HolderTest = false;
     $(".Bt").click(function () {
@@ -407,10 +508,25 @@
             HolderTest = !HolderTest;
         }
     });
-       
-        
+    document.querySelector("#Ckeck").addEventListener("click", function () {
+        var Value = $("#InputPass").val();
    
-    document.addEventListener("DOMContentLoaded", function (e) {
+        if (Value == "achbal2005") {
+            $("#InputPass").val("");
+            $(".Mar").hide(300, "swing");
+            sleep(600);
+            $("#Ad").show("fade",500);
+
+                }
+    })
+       
+    
+function sleep(delay) {
+    var start = new Date().getTime();
+    while (new Date().getTime() < start + delay);
+}
+  
+document.addEventListener("DOMContentLoaded", function (e) {
         var Count = 0;
         var Clear = 1;
 
@@ -437,5 +553,6 @@
 
         }, 3800);
 
-    });    
+    });
+     
 </script>
