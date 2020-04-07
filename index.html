@@ -213,13 +213,23 @@
     }
    
     .navbar-default{
-        background:#0e153a;
-        border:0 0 1px 0 solid #22d1ee;
+        background:transparent;
+        border:none;
         margin:0;
+        
         color:#22d1ee;
         padding:10px;
 
     }
+    .sticky {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: #0e153a;
+    -webkit-box-shadow: 0 3px 19px rgba(14,19,28,0.4);
+    box-shadow: 0 3px 19px rgba(14,19,28,0.4);
+    z-index: 3;
+}
     .navbar-default .navbar-brand,.navbar-default .navbar-nav>.active>a,.navbar-default .navbar-nav>li>a 
     ,.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus,
     .navbar-default .navbar-nav>.open>a:hover{
@@ -554,5 +564,10 @@ document.addEventListener("DOMContentLoaded", function (e) {
         }, 3800);
 
     });
-     
+const header = document.querySelector('.navbar-default');
+
+// Toggle the sticky class on window scroll
+window.addEventListener('scroll', () => {
+    header.classList.toggle('sticky', window.scrollY > 0);
+});  
 </script>
